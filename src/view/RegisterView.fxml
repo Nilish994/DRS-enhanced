@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserController">
+    <children>
+        <Label text="Register"/>
+        <Label text="Username"/>
+        <TextField fx:id="usernameField"/>
+        <Label text="Password"/>
+        <PasswordField fx:id="passwordField"/>
+        <Label text="Role"/>
+        <TextField fx:id="roleField"/>
+        <Button text="Register" onAction="#handleRegister"/>
+    </children>
+</VBox>
