@@ -1,0 +1,61 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 Sept 2024, 12:19:18
+    Author     : rxncor
+*/
+
+/* General styling */
+.root {
+    -fx-background-color: #f0f4f8; /* Light background for the whole pane */
+}
+
+.form-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px;
+}
+
+.form-label {
+    font-size: 14px;
+
+    font-weight: 500;
+}
+
+.form-field, .form-textarea {
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 8px;
+    border-color: #ddd;
+    border-width: 1px;
+    min-width: 200px;
+    background-color: #ffffff;
+    -fx-focus-color: #007BFF; /* Highlight color on focus */
+}
+
+.form-textarea {
+    min-height: 80px;
+    resize: none; /* Disable resizing */
+}
+
+.report-button {
+    -fx-background-color: #007BFF;
+    -fx-text-fill: white;
+    -fx-background-radius: 8px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.report-button:hover {
+    -fx-background-color: #0056b3;
+
+}
+
+.report-button:disabled {
+    -fx-background-color: #cccccc;
+}
+

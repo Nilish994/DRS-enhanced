@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 Sept 2024, 12:19:18
+    Author     : rxncor
+*/
+
+
+/* Basic styling for the VBox */
+.vbox {
+    -fx-background-color: #f5f5f5; /* Light grey background */
+    -fx-border-radius: 10px; /* Rounded corners */
+    -fx-border-color: #ddd; /* Light border color */
+    -fx-border-width: 1px; /* Border width */
+}
+
+/* Styling for the header label */
+.header {
+    -fx-font-size: 20px; /* Font size for header */
+    -fx-font-weight: bold; /* Bold font */
+    -fx-text-fill: #333; /* Dark text color */
+}
+
+/* Styling for text fields */
+.text-field, .password-field {
+    -fx-background-color: #fff; /* White background */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-border-color: #ccc; /* Light border color */
+    -fx-border-width: 1px; /* Border width */
+
+}
+
+/* Styling for the login button */
+.login-button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text color */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-cursor: hand; /* Pointer cursor on hover */
+}
+
+.login-button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}

@@ -1,0 +1,62 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 Sept 2024, 12:19:18
+    Author     : rxncor
+*/
+
+
+.report-button {
+    -fx-background-color: #e63946; /* Bright red background */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-size: 16px; /* Font size */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-padding: 10px 20px; /* Padding inside the button */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 1); /* Drop shadow effect */
+    -fx-cursor: hand; /* Pointer cursor on hover */
+}
+.red-button {
+    -fx-background-color: #FF4C4C; /* Bright red background */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 1); /* Drop shadow effect */
+    -fx-cursor: hand; /* Pointer cursor on hover */
+}
+.login-button {
+    -fx-background-color: #007bff; /* Bright blue  background */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 1); /* Drop shadow effect */
+    -fx-cursor: hand; /* Pointer cursor on hover */
+}
+.reg-button {
+    -fx-background-color: #28a745; /* Bright blue  background */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 1); /* Drop shadow effect */
+    -fx-cursor: hand; /* Pointer cursor on hover */
+}
+/* Hover effect for the button */
+.report-button:hover {
+    -fx-background-color: #d62839; /* Darker red on hover */
+}
+.login-button:hover{
+    -fx-background-color: #0056b3; /* Darker red on hover */
+}
+.reg-button:hover{
+    -fx-background-color: #218838; /* Darker red on hover */
+}
+
+.red-button:hover{
+    -fx-background-color: #D32F2F; /* Darker red on hover */
+}

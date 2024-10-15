@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="300.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainViewController">
+    <VBox alignment="CENTER">
+        <children> 
+            <HBox alignment="CENTER" spacing="5">
+            </HBox>
+            
+            <HBox alignment="CENTER">
+                <Pane fx:id="viewPlaceholderLeft" centerShape="true" prefHeight="300" prefWidth="200.0" />
+                <Pane fx:id="viewPlaceholderRight" prefHeight="300" prefWidth="460.0">
+               <children>  
+               </children></Pane>
+            </HBox>
+        </children>
+    </VBox>   
+</AnchorPane>
