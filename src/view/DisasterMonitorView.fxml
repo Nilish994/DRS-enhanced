@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../css/TableCss.css" fx:controller="controller.DisasterMonitorController">
+    <children>
+        <Label text="Ongoing Disasters" />
+        <TableView fx:id="disasterTableView" prefHeight="300.0" prefWidth="460">
+            <columns>
+                <TableColumn fx:id="disasterTypeColumn" text="Disaster Type" />
+                <TableColumn fx:id="locationColumn" text="Location" />
+                <TableColumn fx:id="severityColumn" text="Severity" />
+                <TableColumn fx:id="dateColumn" text="Date" />
+            </columns>
+        </TableView>
+    </children>
+</VBox>

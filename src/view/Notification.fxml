@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23" fx:controller="controller.DisasterController">
+    <stylesheets>
+        <URL value="@notification.css" />
+        
+    </stylesheets>
+   <children>
+      <ListView fx:id="notificationListView" layoutX="80.0" layoutY="82.0" prefHeight="200.0" prefWidth="442.0" />
+      <Label layoutX="52.0" layoutY="32.0" text="Notifications" />
+   </children>
+</AnchorPane>
